@@ -1,0 +1,12 @@
+/* OrderForm.css */
+
+.order-card {
+  padding: 20px;
+  /* Set the width of the card, or leave as full width for smaller screen sizes */
+  width: 100%; /* Change this value to adjust the card size */
+  margin: 0 auto; /* Center the card */
+}
+
+.order-form .form-group {
+  margin-bottom: 15px;
+}

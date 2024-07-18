@@ -1,0 +1,70 @@
+.hero-container {
+  height: 100vh;
+  background-image: url("../../assets/bg-header.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.btn-l {
+  background-color: #03c03c;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 43, 43, 0.5);
+}
+
+.hero-content {
+  position: absolute;
+  top: 53%;
+  left: 8%; /* Mengatur posisi konten ke kanan */
+  transform: translateY(-50%);
+  text-align: left; /* Mengatur teks ke kanan */
+  color: #fff;
+  padding-right: 20px; /* Padding kanan agar konten tidak terlalu dekat dengan tepi */
+  max-width: 50%; /* Maksimum lebar konten agar tidak terlalu lebar */
+}
+
+.hero-content h1 {
+  font-size: 2.7rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem; /* Jarak antara paragraf */
+}
+/* Media queries untuk tampilan mobile */
+@media (max-width: 767px) {
+  .hero-container {
+    background-image: none; /* Hilangkan background image */
+    background-color: white; /* Background menjadi putih */
+    height: 60vh;
+  }
+
+  .overlay {
+    display: none; /* Sembunyikan overlay */
+  }
+
+  .hero-content {
+    position: relative;
+    top: 50%;
+    left: 52%; /* Posisi tengah */
+    transform: translate(-50%, -50%);
+    text-align: center; /* Teks menjadi rata tengah */
+    color: black !important; /* Warna teks menjadi hitam */
+    /* padding: 0 0; Padding horizontal */
+    max-width: 100%; /* Lebar maksimum */
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  .hero-content p {
+    font-size: 1rem; /* Ukuran font lebih kecil */
+    color: black !important;
+  }
+}

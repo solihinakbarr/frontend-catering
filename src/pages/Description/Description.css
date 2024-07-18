@@ -1,0 +1,19 @@
+/* Description.css */
+#description {
+  margin-top: 100px;
+}
+.menu-details {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 15px;
+}
+
+#description .row {
+  align-items: flex-start;
+}
+
+.order-card {
+  width: 100%;
+}

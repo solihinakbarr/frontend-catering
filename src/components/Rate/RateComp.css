@@ -1,0 +1,109 @@
+.rated {
+  background-color: #28a745;
+  padding: 20px;
+}
+
+.rated h3 {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.star {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #ccc;
+}
+
+.star.filled {
+  color: yellow; /* Default color for filled stars */
+}
+
+.green .star.filled {
+  color: rgb(255, 251, 0); /* Color for rating 4 and above */
+}
+
+.orange .star.filled {
+  color: orange; /* Color for rating between 2 and 3.9 */
+}
+
+.red .star.filled {
+  color: red; /* Color for rating below 2 */
+}
+
+.rate-comp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.testimonial-item {
+  width: calc(25% - 20px);
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stars {
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.family-info {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .rated {
+    margin-top: 40px;
+    height: 400px;
+  }
+  .slick-slider {
+    display: block !important;
+  }
+
+  .rate-comp {
+    display: none;
+  }
+  .testimonial-item {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+}

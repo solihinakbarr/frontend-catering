@@ -1,0 +1,88 @@
+.footer {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 50px 0;
+  border-top: 1px solid #e0e0e0;
+  font-weight: 500;
+}
+
+.footer .footer-brand h2 {
+  color: #141313;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.footer .footer-brand .highlight {
+  color: #28a745; /* Biru untuk highlight */
+}
+
+.footer .brand-tagline {
+  margin-top: 8px;
+  color: #6c757d;
+  font-weight: 3500;
+  line-height: 1.6;
+}
+
+.footer .footer-heading {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: #2b2727;
+}
+
+.footer .list-group-item {
+  padding: 0.3125rem 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.footer .list-group-item a,
+.footer .list-group-item span {
+  color: #6c757d;
+  font-weight: 500;
+  line-height: 1.6;
+  text-decoration: none;
+  display: block;
+}
+
+.footer .list-group-item a:hover,
+.footer .list-group-item a:focus {
+  color: #0e0808;
+}
+
+.footer .copyrights {
+  margin-top: 50px;
+  font-weight: 300;
+  color: #6c757d;
+  border-top: 1px solid #575757;
+  padding-top: 10px;
+}
+@media (max-width: 768px) {
+  .footer .footer-brand h2 {
+    color: #000000;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .footer .footer-brand .highlight {
+    color: #007bff; /* Biru untuk highlight */
+  }
+
+  .footer .brand-tagline {
+    margin-top: 8px;
+    color: #6c757d;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer .footer-heading {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .footer .list-group-item a:hover,
+  .footer .list-group-item a:focus {
+    color: #000000;
+    text-decoration: underline;
+  }
+}

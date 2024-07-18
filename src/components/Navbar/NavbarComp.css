@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #fff;
+  font-weight: 500;
+}
+.navbar .nav-link {
+  color: #000 !important;
+}
+.navbar .span-brand {
+  color: #03c03c !important;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #03c03c !important;
+}
+.navbar .nav-link.active,
+.navbar .nav-link.active:hover {
+  color: #03c03c !important;
+}
